@@ -22,3 +22,8 @@ def draw(l):  # recursive function taking length 'l' as argument
         roo.left(30)  # moving the turtle 30 degrees towards left
         roo.pensize(2)
         roo.backward(l)  # returning the turtle back to its original psition
+
+        draw(20)  # drawing 20 times
+
+roo.right(90)
+roo.speed(2000)
