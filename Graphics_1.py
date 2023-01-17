@@ -27,3 +27,24 @@ def draw(l):  # recursive function taking length 'l' as argument
 
 roo.right(90)
 roo.speed(2000)
+
+
+
+# recursion
+def draw(l):
+    if (l < 10):
+        return
+    else:
+        roo.pensize(2)
+        roo.pencolor("magenta")  # magenta
+        roo.forward(l)
+        roo.left(30)
+        draw(3 * l / 4)
+        roo.right(60)
+        draw(3 * l / 4)
+        roo.left(30)
+        roo.pensize(2)
+        roo.backward(l)
+
+
+        
