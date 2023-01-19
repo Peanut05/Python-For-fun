@@ -47,4 +47,8 @@ def draw(l):
         roo.backward(l)
 
 
-        
+draw(20)
+
+roo.left(270)
+roo.speed(2000)
+
