@@ -52,3 +52,19 @@ draw(20)
 roo.left(270)
 roo.speed(2000)
 
+# recursion
+def draw(l):
+    if (l < 10):
+        return
+    else:
+        roo.pensize(2)
+        roo.pencolor("red")  # red
+        roo.forward(l)
+        roo.left(30)
+        draw(3 * l / 4)
+        roo.right(60)
+        draw(3 * l / 4)
+        roo.left(30)
+        roo.pensize(2)
+        roo.backward(l)
+
