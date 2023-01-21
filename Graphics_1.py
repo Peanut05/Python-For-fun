@@ -122,3 +122,9 @@ draw(40)
 roo.right(90)
 roo.speed(2000)
 
+
+# recursion
+def draw(l):
+    if (l < 10):
+        return
+    else:
