@@ -138,3 +138,11 @@ def draw(l):
         roo.left(30)
         roo.pensize(3)
         roo.backward(l)
+
+
+draw(40)
+
+roo.left(270)
+roo.speed(2000)
+
+
