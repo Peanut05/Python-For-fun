@@ -273,3 +273,7 @@ def draw(l):
         roo.left(30)
         roo.pensize(2)
         roo.backward(l)
+
+
+draw(60)
+wn.exitonclick()
