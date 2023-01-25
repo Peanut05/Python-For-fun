@@ -263,3 +263,13 @@ def draw(l):
     if (l < 10):
         return
     else:
+        roo.pensize(2)
+        roo.pencolor('#FFF8DC')  # white
+        roo.forward(l)
+        roo.left(30)
+        draw(6 * l / 7)
+        roo.right(60)
+        draw(6 * l / 7)
+        roo.left(30)
+        roo.pensize(2)
+        roo.backward(l)
